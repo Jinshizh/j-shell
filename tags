@@ -1,0 +1,35 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+CC	makefile	/^CC = gcc$/;"	m
+DIR_MODE	include/apue.h	39;"	d
+EXEC	makefile	/^EXEC = j-shell$/;"	m
+FILE_MODE	include/apue.h	34;"	d
+MAXLINE	include/apue.h	29;"	d
+OBJS	makefile	/^OBJS = j-shell.o error.o$/;"	m
+Sigfunc	include/apue.h	/^typedef	void	Sigfunc(int);	\/* for signal handlers *\/$/;"	t
+_APUE_H	include/apue.h	5;"	d
+_POSIX_C_SOURCE	include/apue.h	7;"	d
+_XOPEN_SOURCE	include/apue.h	10;"	d
+_XOPEN_SOURCE	include/apue.h	12;"	d
+err_cont	error.c	/^err_cont(int error, const char *fmt, ...)$/;"	f
+err_doit	error.c	/^err_doit(int errnoflag, int error, const char *fmt, va_list ap)$/;"	f	file:
+err_dump	error.c	/^err_dump(const char *fmt, ...)$/;"	f
+err_exit	error.c	/^err_exit(int error, const char *fmt, ...)$/;"	f
+err_msg	error.c	/^err_msg(const char *fmt, ...)$/;"	f
+err_quit	error.c	/^err_quit(const char *fmt, ...)$/;"	f
+err_ret	error.c	/^err_ret(const char *fmt, ...)$/;"	f
+err_sys	error.c	/^err_sys(const char *fmt, ...)$/;"	f
+is_read_lockable	include/apue.h	107;"	d
+is_write_lockable	include/apue.h	109;"	d
+main	j-shell.c	/^main(void)$/;"	f
+max	include/apue.h	44;"	d
+min	include/apue.h	43;"	d
+read_lock	include/apue.h	94;"	d
+readw_lock	include/apue.h	96;"	d
+un_lock	include/apue.h	102;"	d
+write_lock	include/apue.h	98;"	d
+writew_lock	include/apue.h	100;"	d
